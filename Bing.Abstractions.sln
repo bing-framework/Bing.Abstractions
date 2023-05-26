@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bing.Abstractions", "src\Bing.Abstractions\Bing.Abstractions.csproj", "{7A4B8AB7-ED65-4695-BB98-4C0881B1FF77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{1292485D-1B8B-4E3B-A6A5-0041144C1F8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asset", "asset", "{A753FF8B-1D97-4C66-8D58-C40EFB79800E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{4D4AB83E-00F0-4B1D-929C-925BBEA4F093}"
+	ProjectSection(SolutionItems) = preProject
+		asset\images\icon.png = asset\images\icon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{BC1108AE-3663-43EB-8E81-5837D8D93471}"
+	ProjectSection(SolutionItems) = preProject
+		asset\props\misc.props = asset\props\misc.props
+		asset\props\package.props = asset\props\package.props
+		asset\props\sourcelink.env.props = asset\props\sourcelink.env.props
+		asset\props\target.feature.props = asset\props\target.feature.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{1B896D9A-B5A2-400E-8EFC-8E7D1B8BF694}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{0D1CCEA5-E953-463D-88F5-D795A6F0E0EA}"
+	ProjectSection(SolutionItems) = preProject
+		Publish.bat = Publish.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{AC8AB58B-69A2-4B6D-9C70-A99BC01D6AC3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		common.props = common.props
+		common.tests.props = common.tests.props
+		LICENSE = LICENSE
+		version.props = version.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{558FF7E0-A80B-4F62-A3DA-8ECE68110DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A4B8AB7-ED65-4695-BB98-4C0881B1FF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4B8AB7-ED65-4695-BB98-4C0881B1FF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4B8AB7-ED65-4695-BB98-4C0881B1FF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4B8AB7-ED65-4695-BB98-4C0881B1FF77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A4B8AB7-ED65-4695-BB98-4C0881B1FF77} = {558FF7E0-A80B-4F62-A3DA-8ECE68110DC8}
+		{A753FF8B-1D97-4C66-8D58-C40EFB79800E} = {1292485D-1B8B-4E3B-A6A5-0041144C1F8A}
+		{4D4AB83E-00F0-4B1D-929C-925BBEA4F093} = {A753FF8B-1D97-4C66-8D58-C40EFB79800E}
+		{BC1108AE-3663-43EB-8E81-5837D8D93471} = {A753FF8B-1D97-4C66-8D58-C40EFB79800E}
+		{1B896D9A-B5A2-400E-8EFC-8E7D1B8BF694} = {1292485D-1B8B-4E3B-A6A5-0041144C1F8A}
+		{0D1CCEA5-E953-463D-88F5-D795A6F0E0EA} = {1292485D-1B8B-4E3B-A6A5-0041144C1F8A}
+		{AC8AB58B-69A2-4B6D-9C70-A99BC01D6AC3} = {1292485D-1B8B-4E3B-A6A5-0041144C1F8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {373A0CA0-8D0C-49C5-98DB-643FCADE7F80}
+	EndGlobalSection
+EndGlobal

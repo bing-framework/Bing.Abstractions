@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <AssemblyName>Bing.Abstractions</AssemblyName>
+	  <PackageId>Bing.Abstractions</PackageId>
+	  <Description>Bing.Abstractions是Bing应用框架的核心抽象类库。</Description>
+  </PropertyGroup>
+
+	<Import Project="..\..\common.props" />
+
+</Project>
