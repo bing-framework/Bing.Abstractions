@@ -7,7 +7,7 @@ Bing.Abstractions 是Bing框架的抽象核心类库。
 
 |包名称|Nuget版本|下载数|
 |---|---|---|
-|Bing.Abstractions|||
+|Bing.Abstractions|[![Bing.Abstractions](https://img.shields.io/nuget/v/Bing.Abstractions.svg)](https://www.nuget.org/packages/Bing.Abstractions/)|[![Bing.Abstractions](https://img.shields.io/nuget/dt/Bing.Abstractions.svg)](https://www.nuget.org/packages/Bing.Abstractions/)|
 
 
 ## 开发环境以及类库依赖
