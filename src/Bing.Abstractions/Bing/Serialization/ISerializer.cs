@@ -28,7 +28,7 @@ public interface ISerializer
     /// <typeparam name="TValue">被反序列化对象类型</typeparam>
     /// <param name="stream">流</param>
     /// <returns>反序列化对象</returns>
-    TValue Stream<TValue>(Stream stream);
+    TValue FromStream<TValue>(Stream stream);
 
     /// <summary>
     /// 反序列化

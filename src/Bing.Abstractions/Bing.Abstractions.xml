@@ -187,7 +187,7 @@
             <param name="value">值</param>
             <returns>内存流</returns>
         </member>
-        <member name="M:Bing.Serialization.ISerializer.Stream``1(System.IO.Stream)">
+        <member name="M:Bing.Serialization.ISerializer.FromStream``1(System.IO.Stream)">
             <summary>
             反序列化
             </summary>
@@ -248,6 +248,55 @@
             <summary>
             流对象序列化器元接口
             </summary>
+        </member>
+        <member name="M:Bing.Serialization.IStreamSerializer.FromStream``1(System.IO.Stream)">
+            <summary>
+            反序列化
+            </summary>
+            <typeparam name="TValue">被反序列化对象类型</typeparam>
+            <param name="stream">流</param>
+            <returns>反序列化对象</returns>
+        </member>
+        <member name="M:Bing.Serialization.IStreamSerializer.FromStream(System.Type,System.IO.Stream)">
+            <summary>
+            反序列化
+            </summary>
+            <param name="type">被反序列化对象类型</param>
+            <param name="stream">流</param>
+            <returns>反序列化对象</returns>
+        </member>
+        <member name="M:Bing.Serialization.IStreamSerializer.Pack``1(``0,System.IO.Stream)">
+            <summary>
+            序列化对象并打包到流中
+            </summary>
+            <typeparam name="TValue">序列化对象类型</typeparam>
+            <param name="value">值</param>
+            <param name="stream">流</param>
+        </member>
+        <member name="M:Bing.Serialization.IStreamSerializer.Pack(System.Type,System.Object,System.IO.Stream)">
+            <summary>
+            序列化对象并打包到流中
+            </summary>
+            <param name="type">序列化对象类型</param>
+            <param name="value">值</param>
+            <param name="stream">流</param>
+        </member>
+        <member name="M:Bing.Serialization.IStreamSerializer.ToStream``1(``0)">
+            <summary>
+            将对象序列化成流
+            </summary>
+            <typeparam name="TValue">序列化对象类型</typeparam>
+            <param name="value">值</param>
+            <returns>序列化流</returns>
+            <returns>内存流</returns>
+        </member>
+        <member name="M:Bing.Serialization.IStreamSerializer.ToStream(System.Type,System.Object)">
+            <summary>
+            将对象序列化成流
+            </summary>
+            <param name="type">序列化对象类型</param>
+            <param name="value">值</param>
+            <returns>内存流</returns>
         </member>
         <member name="T:Bing.Serialization.IStreamSerializerAsync">
             <summary>
