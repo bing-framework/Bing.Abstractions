@@ -4,7 +4,7 @@
 /// 对象序列化器元接口
 /// </summary>
 /// <typeparam name="TData">指定的目标序列化类型</typeparam>
-public interface IObjectSerializer<TData> : ISerializer, ISerializerAsync
+public interface IObjectSerializer<TData> : IStreamSerializer, IStreamSerializerAsync
 {
     #region Sync(同步)
 

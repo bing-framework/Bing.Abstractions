@@ -3,7 +3,7 @@
 /// <summary>
 /// 流对象序列化器元接口
 /// </summary>
-public interface IStreamSerializerAsync : ISerializerAsync
+public partial interface IStreamSerializerAsync
 {
     /// <summary>
     /// 序列化对象并打包到流中
